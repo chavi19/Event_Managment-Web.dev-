@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaSearch, FaEdit, FaTrash, FaPlus, FaFilter } from "react-icons/fa";
 import "./Dashboard.css";
 
-const userRole = "admin"; // Change to "enduser" to test user view
+const userRole = "enduser"; // Change to "enduser" to test user view
 
 const Dashboard = () => {
   const [events, setEvents] = useState([
